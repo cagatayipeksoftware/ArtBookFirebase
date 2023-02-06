@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "929244820951",
+    "project_id": "fragmentartlist",
+    "storage_bucket": "fragmentartlist.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:929244820951:android:fd8c5a1904dec6c9d3c792",
+        "android_client_info": {
+          "package_name": "com.cagatayipek.fragmentartlist"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "929244820951-1h32d8tli5nm043h6fp5lj1rge6o8he0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAtzMul3BXHAFI11q9bFkXiXomFCBKJj6Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "929244820951-1h32d8tli5nm043h6fp5lj1rge6o8he0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

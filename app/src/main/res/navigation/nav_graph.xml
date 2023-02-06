@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/login">
+
+    <fragment
+        android:id="@+id/login"
+        android:name="com.cagatayipek.fragmentartlist.view.login"
+        android:label="fragment_login"
+        tools:layout="@layout/fragment_login" >
+        <action
+            android:id="@+id/action_login_to_artbookfeed"
+            app:destination="@id/artbookfeed" />
+    </fragment>
+    <fragment
+        android:id="@+id/artbookfeed"
+        android:name="com.cagatayipek.fragmentartlist.view.artbookfeed"
+        android:label="fragment_artbookfeed"
+        tools:layout="@layout/fragment_artbookfeed" >
+        <action
+            android:id="@+id/action_artbookfeed_to_login"
+            app:destination="@id/login" />
+        <action
+            android:id="@+id/action_artbookfeed_to_artPost"
+            app:destination="@id/artPost" />
+    </fragment>
+    <fragment
+        android:id="@+id/artPost"
+        android:name="com.cagatayipek.fragmentartlist.view.artPost"
+        android:label="fragment_art_post"
+        tools:layout="@layout/fragment_art_post" >
+        <action
+            android:id="@+id/action_artPost_to_artbookfeed"
+            app:destination="@id/artbookfeed" />
+    </fragment>
+</navigation>
